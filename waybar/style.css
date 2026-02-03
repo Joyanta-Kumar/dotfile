@@ -18,10 +18,9 @@ window#waybar.hidden {
 
 
 window#waybar.empty {
-    background-color: transparent;
 }
 window#waybar.solo {
-    background-color: #FFFFFF;
+    background-color: transparent;
 }
 
 
@@ -81,7 +80,7 @@ button:hover {
 #window,
 #workspaces
 {
-  border: 1px solid shade(@blue, 0.75);
+  border: 1px solid shade(@text, 0.33);
   border-radius: 8px;
   padding: 0 8px;
   background-color: @crust;
@@ -101,7 +100,7 @@ button:hover {
 #window:hover,
 #workspaces:hover
 {
-  border: 1px solid shade(@green, 0.75);
+  border: 1px solid shade(@text, 0.75);
 }
 
 .modules-left {
@@ -121,55 +120,72 @@ button:hover {
 }
 
 #clock {
+  border: 1px solid shade(@rosewater, 0.75);
 }
 
 #battery {
+  border: 1px solid shade(@flamingo, 0.75);
 }
 
 #battery.charging, #battery.plugged {
+  border: 1px solid shade(@pink, 0.75);
 }
 
 #power-profiles-daemon {
+  border: 1px solid shade(@mauve, 0.75);
 }
 
 #power-profiles-daemon.performance {
+  border: 1px solid shade(@red, 0.75);
 }
 
 #power-profiles-daemon.balanced {
+  border: 1px solid shade(@maroon, 0.75);
 }
 
 #power-profiles-daemon.power-saver {
+  border: 1px solid shade(@peach, 0.75);
 }
 
 label:focus {
 }
 
 #cpu {
+    border: 1px solid shade(@yellow, 0.75);
 }
 
 #memory {
+    border: 1px solid shade(@green, 0.75);
 }
 
 #disk {
+  border: 1px solid shade(@teal, 0.75);
 }
 
 #backlight {
+  border: 1px solid shade(@sky, 0.75);
 }
 
 #network {
+  border: 1px solid shade(@sapphire, 0.75);
 }
 
 #network.disconnected {
+  border: 1px solid shade(@blue, 0.75);
 }
 
 #pulseaudio {
+  border: 1px solid shade(@lavender, 0.75);
 }
 
 #pulseaudio.muted {
+  border: 1px solid shade(@text, 0.75);
 }
 
 #temperature {
+  border: 1px solid shade(@flamingo, 0.75);
 }
 
 #temperature.critical {
+  border: 1px solid shade(@flamingo, 0.75);
 }
