@@ -7,6 +7,7 @@ return {
       "nvim-tree/nvim-web-devicons", -- optional, but recommended
     },
     lazy = false, -- neo-tree will lazily load itself
+    enabled = true,
     opts = {
         window = {
             width = 30,
