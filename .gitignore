@@ -16,3 +16,4 @@ go/
 trashrc
 pavucontrol.ini
 mimeapps.list
+nvim/lazy-lock.json
